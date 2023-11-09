@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   background: #1f1934;
   color: #fff;
@@ -33,3 +34,17 @@ body {
   .swiper-pagination-bullet {
   background-color: #f5741c;
 }
+@keyframes move-up-down {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Ajusta la cantidad de desplazamiento vertical según tus necesidades. */
+  }
+}
+.animate-move-up-down {
+  animation: move-up-down 2s ease-in-out infinite; /* Ajusta el valor "2s" para controlar la velocidad y la duración de la animación. */
+}
+
+
+

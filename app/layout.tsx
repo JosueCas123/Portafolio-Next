@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import { Navbar } from '@/components/Navbar'
 import { Header } from '@/components/Header'
 import {Prosto_One} from 'next/font/google';
